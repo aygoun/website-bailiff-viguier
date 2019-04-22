@@ -22,7 +22,7 @@
 	<?php include '../connex.php'; ?>
 	<?php //Connection avec la BDD.
 	setlocale(LC_ALL, 'fr_FR');
-	$reponse = $bdd->query('SELECT * FROM ventes_encheres ORDER BY date_bd DESC ');
+	$reponse = $bdd->query('SELECT * FROM ventes_encheres ORDER BY date_bd ASC');
 	?>
 
 </head>

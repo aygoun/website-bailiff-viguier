@@ -11,7 +11,7 @@
 include 'connex.php';
 /* Set locale to France */
 setlocale(LC_ALL, 'fr_FR');
-$reponse = $bdd->query('SELECT * FROM ventes_encheres ORDER BY date_bd DESC');
+$reponse = $bdd->query('SELECT * FROM ventes_encheres ORDER BY date_bd ASC');
 
 ?>
   <body id="page-top">
