@@ -48,7 +48,8 @@ if(isset($_POST['envoyer'])){
 	}
 
 //Deuxieme fichier
-
+$filePath2 = 'none';
+if (array_key_exists('photo_carte_grise', $_FILES)) {
 	$taille2 = filesize($_FILES['photo_carte_grise']['tmp_name']);
 	$extension2 = strtolower(strrchr($_FILES['photo_carte_grise']['name'], '.'));
 
@@ -85,6 +86,7 @@ if(isset($_POST['envoyer'])){
 		echo 'Echec de l\'upload du fichier n2!';
 		echo $erreur2;
 	}
+}
 
 // Troisième fichier
 
