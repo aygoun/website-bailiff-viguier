@@ -42,7 +42,7 @@
 				<br><br>
 				<!-- On limite le fichier à 4Mo -->
 				<input type="hidden" name="MAX_FILE_SIZE" value="4000000">
-				<span class="strg">Fichier des photos de la vente < 4Mo:</span><input type="file" name="photo_vente">
+				<span class="strg">Fichier des photos de la vente (fichier en JPG ou PNG pour être affiché sur la page)< 4Mo:</span><input type="file" name="photo_vente">
 				<br><br>
 				<!-- On limite le fichier à 4Mo -->
 				<input type="hidden" name="MAX_FILE_SIZE" value="4000000">
