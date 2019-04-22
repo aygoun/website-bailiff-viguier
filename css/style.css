@@ -1,0 +1,78 @@
+.mb-5{
+    margin-top: 1.5em;
+}
+.bg-primary{
+    background-color: #343a40!important;
+}
+section a{
+    color: #2290d4!important;
+}
+@media screen and (max-width: 990px) {
+    .mb-0 {
+    font-size: 3.8em;
+    }
+}
+@media screen and (max-width: 446px) {
+    span .d-block, .d-lg-none {
+    font-size: 0.9em;
+    }
+}
+h1
+{
+    font-size: 3rem!important;
+}
+nav li a
+{
+    text-align: right;
+}
+.btn-primary
+{
+    color: #FFF!important
+}
+table
+{
+    border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 5px solid black;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    text-align: center;
+    height: 2em!important;
+    width: 2em!important;
+}
+th
+{
+    color: white;
+    background-color: black;
+}
+.fonts_write
+{
+    font-size: 2.6em!important;
+}
+@media (min-width: 996px)
+{
+    .p-0{
+      margin-left: 5em;
+      width: 90%;
+    }
+  .navbar{
+    width: 22em;
+  }
+}
+.container {
+    overflow:hidden;
+    width:960px;
+    margin:20px auto;
+}
+.strg{
+  font-weight: 600!important;
+}
+.sale-place{
+  background-image: url(http://beta.viguier-huissier.comimg/ic_location.svg);
+}
+.sale-time{
+  background-image: url(http://beta.viguier-huissier.comimg/ic_time.svg);
+    margin-right: 6px;
+}
