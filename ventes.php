@@ -65,7 +65,19 @@ $reponse = $bdd->query('SELECT * FROM ventes_encheres ORDER BY date_bd DESC');
                     <div class="col-10">
                       <div class="col-12 strg" style="padding:0;">
                         <p>Liste du matériel à vendre : <a href="<?php echo $donnees['link_materiel']; ?>">Cliquez ici</a><br /></p>
+
+                        <?php
+                        if ($donnees['link_cartesGrises'] != 'none'){
+                        ?>
                         <p>En cas de vente de véhicule, visualiser le carte grise : <a href="<?php echo $donnees['link_cartesGrises']; ?>">Cliquez ici</a><br /></p>
+                        <?php
+                        }
+                        else{
+                        ?>
+                        <p>Aucun véhicule n'est en vente.</p>
+                        <?php
+                        }
+                        ?>
 
                       </div>
 
