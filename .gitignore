@@ -1,1 +1,5 @@
 .DS_Store
+upload/photos_cartes_grises/
+upload/photos_materiel/
+upload/photos_ventes/
+connex.php

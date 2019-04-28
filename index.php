@@ -18,11 +18,13 @@
 
           <p class="mb-5">
 
-            Maître VIGUIER Constance Huissiers de Justice
+            Maître VIGUIER Constance
             <br>
-            3 Rue Sénateur Bonniard
+            Huissier de Justice
             <br>
-            BP 36 05202 EMBRUN CEDEX.
+            3 Rue Sénateur Bonniard - BP 36
+            <br>
+            05202 EMBRUN CEDEX.
             <br><br>
             Etude ouverte du lundi au vendredi de 8h00 à 12h00 et de 13h30 à 17h30 Sauf le lundi ouverture à 8h30 et le vendredi fermeture à 16h30.
             <br><br>
@@ -79,20 +81,20 @@
 
               <p>
                 Vous pouvez effectuer un paiement sur vos dossiers par :
-                <br>
+                <br><br>
                 - <strong>Carte bleue</strong> sur le site internet sécurisé : <a href="https://www.jepaieparcarte.com//0070" onclick="window.open(this.href); return false;">https://www.jepaieparcarte.com//0070</a>
                 en indiquant votre numéro de dossier.
-                <br><br>
+                <br>
                 - <strong>Virement bancaire automatique</strong> : en remplissant l’ordre de virement ci-dessous et en l’adressant à votre banque.
-                <br><br>
+                <br>
                 - <strong>Virement bancaire</strong> (RIB ci-desssous).
-                <br><br>
+                <br>
                 - <strong>En espèces</strong> jusqu’à 3000€
-                <br><br>
+                <br>
                 - <strong>Chèque</strong> à l’ordre de Maître SELARL VIGUIER
-                <br><br>
+                <br>
                 - <strong>Mandat cash</strong>
-                <br><br>
+                <br>
                 <a href="download/ordre_de _virement_Viguier_Huissier.pdf" onclick="window.open(this.href); return false;">Télécharger l'ordre de virement</a><br><br>
                 <a href="download/RIB_COMPTE_Viguier_Huissier.pdf" onclick="window.open(this.href); return false;">Télécharger le RIB</a>
               </p>
@@ -180,11 +182,11 @@
               <p class="mb-5">
                  - Si vous souhaitez recevoir les futures annonces de ventes aux enchères publiques par mail, merci de nous adresser votre demande par mail à l’adresse : <a href="mailto:robert.viguier@wanadoo.fr">robert.viguier@wanadoo.fr</a>, en indiquant l’objet de votre demande, votre nom, prénom, adresse et numéro de téléphone.<br><br>
 
-                 - Pour pouvoir enchérir, merci de vous munir lors de la vente un chèque établi à l’ordre de Me VIGUIER.<br><br>
+                 - Pour pouvoir enchérir, merci de vous munir lors de la vente d'un chèque établi à l’ordre de Me VIGUIER.<br><br>
 
                  - Pour les ventes aux enchères publiques <strong>judiciaires</strong>, il faut rajouter au montant d’adjudication, des frais de vente s’élevant à 14,40% TTC.<br><br>
 
-                 - Pour les ventes aux enchères publiques <strong>amiables</strong>, il faut rajouter au montant d’adjudication, des frais de vente s’élevant à 20% TTC.<br><br>
+                 - Pour les ventes aux enchères publiques <strong>volontaires</strong>, il faut rajouter au montant d’adjudication, des frais de vente s’élevant à 20% TTC.<br><br>
                  <center>
 
                   <a class="btn btn-primary" href="ventes.php" role="button">Visualiser les ventes à venir</a>

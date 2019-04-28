@@ -69,13 +69,10 @@ $reponse = $bdd->query('SELECT * FROM ventes_encheres ORDER BY date_bd ASC');
                         <?php
                         if ($donnees['link_cartesGrises'] != 'none'){
                         ?>
-                        <p>En cas de vente de véhicule, visualiser le carte grise : <a href="<?php echo $donnees['link_cartesGrises']; ?>">Cliquez ici</a><br /></p>
+                        <p>Carte(s) grise(s) véhicule(s) : <a href="<?php echo $donnees['link_cartesGrises']; ?>">Cliquez ici</a><br /></p>
                         <?php
                         }
                         else{
-                        ?>
-                        <p>Aucun véhicule n'est en vente.</p>
-                        <?php
                         }
                         ?>
 
