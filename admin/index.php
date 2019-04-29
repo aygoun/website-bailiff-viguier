@@ -31,6 +31,9 @@
 	<div class="row">
 		<div class="all-page col-md-4" style="margin-left: -15rem;margin-top: 1em;  font-size: 0.9em;">
 			<form action="post.php" method="POST" enctype="multipart/form-data">
+				<label>Titre de la vente : </label>
+				<input type="text" name="title_vente" required>
+				<br><br>
 				<label>Heure de la vente : </label>
 				<input type="time" name="time_vente" required>
 				<br><br>

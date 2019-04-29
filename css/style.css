@@ -76,3 +76,11 @@ th
   background-image: url(http://beta.viguier-huissier.comimg/ic_time.svg);
     margin-right: 6px;
 }
+.title-ventes{
+  font-family: 'Saira Extra Condensed',serif;
+  font-weight: 600;
+  font-size: 2.5em;
+  margin-left: 0em;
+  margin-top: -1.5em;
+  margin-bottom: -0.2em;
+}

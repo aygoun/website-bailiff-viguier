@@ -128,11 +128,12 @@ if (array_key_exists('photo_carte_grise', $_FILES)) {
 	}
 
 	$mainNumber = rand();
+	$title=$_POST['title_vente'];
 	$time=$_POST['time_vente'];
 	$date=$_POST['date_vente'];
 	$lieu=$_POST['lieu_vente'];
-	$resultat = $bdd->prepare('INSERT INTO `ventes_encheres`(`num_page`,`heure`, `date_bd`, `lieu`, `link_media`, `link_cartesGrises`, `link_materiel`) VALUES (?,?,?,?,?,?,?)');
-	$resultat->execute(array($mainNumber, $time, $date, $lieu, $filePath1, $filePath2, $filePath3));
+	$resultat = $bdd->prepare('INSERT INTO `ventes_encheres`(`num_page`,`title`,`heure`, `date_bd`, `lieu`, `link_media`, `link_cartesGrises`, `link_materiel`) VALUES (?,?,?,?,?,?,?,?)');
+	$resultat->execute(array($mainNumber, $title, $time, $date, $lieu, $filePath1, $filePath2, $filePath3));
 
 	if($resultat->errorCode() == 0) {
 		header("refresh:2;url=index.php");
