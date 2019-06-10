@@ -9,7 +9,8 @@ if(isset($_POST['envoyer'])){
 	$extensions = array('.png', '.jpg', '.jpeg, ', '.pdf', '.doc', '.docx');
 
 // Premier fichier
-
+$filePath1 = 'none';
+if (array_key_exists('photo_vente', $_FILES)) {
 	$taille1 = filesize($_FILES['photo_vente']['tmp_name']);
 	$extension1 = strtolower(strrchr($_FILES['photo_vente']['name'], '.'));
 
@@ -46,6 +47,7 @@ if(isset($_POST['envoyer'])){
 		echo 'Echec de l\'upload du fichier n1!';
 		echo $erreur1;
 	}
+}
 
 //Deuxieme fichier
 $filePath2 = 'none';
@@ -89,7 +91,8 @@ if (array_key_exists('photo_carte_grise', $_FILES)) {
 }
 
 // Troisième fichier
-
+$filePath3 = 'none';
+if (array_key_exists('fichier_materiel', $_FILES)) {
 	$taille3 = filesize($_FILES['fichier_materiel']['tmp_name']);
 	$extension3 = strtolower(strrchr($_FILES['fichier_materiel']['name'], '.'));
 
@@ -126,6 +129,7 @@ if (array_key_exists('photo_carte_grise', $_FILES)) {
 		echo 'Echec de l\'upload du fichier n3 !';
 		echo $erreur3;
 	}
+}
 
 	$mainNumber = rand();
 	$title=$_POST['title_vente'];

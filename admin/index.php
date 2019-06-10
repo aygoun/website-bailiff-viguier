@@ -87,9 +87,30 @@
 							<td><a href="http://viguier-huissier.com<?php echo $donnees['link_media'];?>"><?php echo basename($donnees['link_media']);?></a></td>
 							<td><a href="delete.php?num_page=<?php echo $donnees['num_page']; ?>">SUPPRIMER</a></td>
 						</tr>
+
 						<?php
 					} //fin de la boucle, le tableau contient toute la BDD
 					$reponse->closeCursor(); // Termine le traitement de la requête
+					
+					/*
+
+					<td>
+						<!-- <?php if ($donnees['link_materiel'] != 'none'){?> -->
+						<a href="http://viguier-huissier.com<?php echo $donnees['link_materiel'];?>"><?php echo basename($donnees['link_materiel']);?></a>
+						<!-- <?php}else{ echo "Aucun fichier";}?> -->
+					</td>
+					<td>
+						<!-- <?php if ($donnees['link_cartesGrises'] != 'none'){?> -->
+							<a href="http://viguier-huissier.com<?php echo $donnees['link_cartesGrises'];?>"><?php echo basename($donnees['link_cartesGrises']);?></a>
+							<!-- <?php}else{ echo "Aucun fichier";}?> -->
+					</td>
+					<td>
+						<!-- <?php if ($donnees['link_media'] != 'none'){?> -->
+							<a href="http://viguier-huissier.com<?php echo $donnees['link_media'];?>"><?php echo basename($donnees['link_media']);?></a>
+							<!-- <?php}else{echo "Aucun fichier";}?> -->
+					</td>
+
+					*/
 					?>
 				</tbody>
 			</table>

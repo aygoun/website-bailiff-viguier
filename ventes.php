@@ -61,7 +61,16 @@ $reponse = $bdd->query('SELECT * FROM ventes_encheres ORDER BY date_bd ASC');
                 <div class="row">
                 <div class="col-12">
                   <div class="col-12 strg" style="padding:0;">
-                    <p>Liste du matériel à vendre : <a href="<?php echo $donnees['link_materiel']; ?>">Cliquez ici</a><br /></p>
+
+                    <?php
+                    if ($donnees['link_materiel'] != 'none'){
+                      ?>
+                      <p>Liste du matériel à vendre : <a href="<?php echo $donnees['link_materiel']; ?>">Cliquez ici</a><br /></p>
+                      <?php
+                    }
+                    else{
+                    }
+                    ?>
 
                     <?php
                     if ($donnees['link_cartesGrises'] != 'none'){
@@ -75,9 +84,18 @@ $reponse = $bdd->query('SELECT * FROM ventes_encheres ORDER BY date_bd ASC');
 
                   </div>
 
-                  <div class="col-md-12 row" style="width:100; height:100;">
-                    <img class="img-fluid img_ventes" src="<?php echo $donnees['link_media']?>" style="width:50%!important; height:50%!important;padding:0!important;margin:0!important;"/>
-                  </div>
+                  <?php
+                  if ($donnees['link_cartesGrises'] != 'none'){
+                    ?>
+                    <div class="col-md-12 row" style="width:100; height:100;">
+                      <img class="img-fluid img_ventes" src="<?php echo $donnees['link_media']?>" style="width:50%!important; height:50%!important;padding:0!important;margin:0!important;"/>
+                    </div>
+                    <?php
+                  }
+                  else{
+                  }
+                  ?>
+
                 </div>
 
                 <HR align=center size=8 width="100%" style="border: 1px solid rgb(53,68,63); margin-bottom : 4em;">
