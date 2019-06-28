@@ -31,7 +31,7 @@
 
             Tél : 04.92.43.07.74<br>
             Fax : 04.92.43.07.91<br>
-            Mail : <a href="mailto:robert.viguier@wanadoo.fr">robert.viguier@wanadoo.fr</a>
+            Mail : <a href="mailto:contact@viguier-huissier.com">contact@viguier-huissier.com</a>
           </p>
 
           <div class="row">
@@ -145,7 +145,7 @@
                 Faite appel à un Huissier de Justice, seul professionnel qualifié pour procéder au recouvrement des loyers impayés et mettre en oeuvre la procédure d'expulsion.<br><br>
                 Pour ce faire il convient d'adresser à notre étude une copie de votre bail, un décompte des sommes dues ainsi que l'état civil complet du ou des demandeur(s).
                 <br><br>
-                Ces documents peuvent m'être adressés par courrier ou par mail à l'adresse : <a href="mailto:robert.viguier@wanadoo.fr">robert.viguier@wanadoo.fr</a>
+                Ces documents peuvent m'être adressés par courrier ou par mail à l'adresse : <a href="mailto:contact@viguier-huissier.com">contact@viguier-huissier.com</a>
               </p>
 
             </div>
@@ -180,7 +180,7 @@
             <div class="resume-content mr-auto">
 
               <p class="mb-5">
-                 - Si vous souhaitez recevoir les futures annonces de ventes aux enchères publiques par mail, merci de nous adresser votre demande par mail à l’adresse : <a href="mailto:robert.viguier@wanadoo.fr">robert.viguier@wanadoo.fr</a>, en indiquant l’objet de votre demande, votre nom, prénom, adresse et numéro de téléphone.<br><br>
+                 - Si vous souhaitez recevoir les futures annonces de ventes aux enchères publiques par mail, merci de nous adresser votre demande par mail à l’adresse : <a href="mailto:contact@viguier-huissier.com">contact@viguier-huissier.com</a>, en indiquant l’objet de votre demande, votre nom, prénom, adresse et numéro de téléphone.<br><br>
 
                  - Pour pouvoir enchérir, merci de vous munir lors de la vente d'un chèque établi à l’ordre de Me VIGUIER.<br><br>
 
@@ -214,7 +214,7 @@
                 Officier public et ministériel, l’Huissier de Justice vous conseillera et légitimera votre action.
                 <br><br>
                 ➤ Le dépôt du règlement des jeux et concours chez un Huissier de Justice est obligatoire. En outre, l’Huissier de Justice vérifie que votre opération respecte la réglementation en vigueur (lois du 21 mai 1936 et du 23 juin 1989 et dispositions du code de la consommation).<br><br>
-                Vous pouvez nous adresser le dossier par courrier ou par mail à l'adresse : <a href="mailto:robert.viguier@wanadoo.fr">robert.viguier@wanadoo.fr</a>
+                Vous pouvez nous adresser le dossier par courrier ou par mail à l'adresse : <a href="mailto:contact@viguier-huissier.com">contact@viguier-huissier.com</a>
               </p>
 
             </div>
@@ -236,7 +236,7 @@
                 la signification des actes extrajudiciaires et judiciaires (assignation en justice, jugement), dont certains sont des prérequis indispensables en vue de la mise en recouvrement forcé d’une créance.
                 Notre Etude s’engage à signifier les actes avec célérité sur tout son ressort de compétence.
                 <br><br>
-                Pour ce faire, il suffit de nous adresser vos documents par courrier ou par mail : <a href="mailto:robert.viguier@wanadoo.fr">robert.viguier@wanadoo.fr</a>
+                Pour ce faire, il suffit de nous adresser vos documents par courrier ou par mail : <a href="mailto:contact@viguier-huissier.com">contact@viguier-huissier.com</a>
 
 
               </p>
@@ -255,7 +255,7 @@
             <div class="resume-content mr-auto">
 
               <p class="mb-5">
-                En cas de créances impayées vous pouvez vous adresser à notre étude par courrier ou par mail : <a href="mailto:robert.viguier@wanadoo.fr">robert.viguier@wanadoo.fr</a>
+                En cas de créances impayées vous pouvez vous adresser à notre étude par courrier ou par mail : <a href="mailto:contact@viguier-huissier.com">contact@viguier-huissier.com</a>
               </p>
 
             </div>
