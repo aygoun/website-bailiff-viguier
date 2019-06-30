@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-  <title>Maîtres VIGUIER Constance - Huissier de Justice à Embrun (05)</title>
+  <title>SELARL VIGUIER - Huissier de Justice à Embrun (05)</title>
   <?php include 'include/head.html' ?>
 </head>
 
@@ -18,7 +18,7 @@ $validityOfReq = $reponse->rowCount() ;
 <body id="page-top">
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Maîtres VIGUIER Constance</span>
+      <span class="d-block d-lg-none">SELARL VIGUIER</span>
       <span class="d-none d-lg-block">
         <img class="img-fluid rounded mx-auto mb-2" src="img/VIGUIER LOGO.png" alt="">
       </span>
