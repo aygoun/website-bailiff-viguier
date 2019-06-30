@@ -2,7 +2,7 @@
 <html lang="fr">
 
   <head>
-    <title>Maîtres VIGUIER Constance - Huissier de Justice à Embrun (05)</title>
+    <title>SELARL VIGUIER - Huissier de Justice à Embrun (05)</title>
     <?php include 'include/head.html' ?>
   </head>
 
@@ -91,7 +91,7 @@
                 <br>
                 - <strong>En espèces</strong> jusqu’à 3000€
                 <br>
-                - <strong>Chèque</strong> à l’ordre de Maître SELARL VIGUIER
+                - <strong>Chèque</strong> à l’ordre de SELARL VIGUIER
                 <br>
                 - <strong>Mandat cash</strong>
                 <br>
@@ -182,7 +182,7 @@
               <p class="mb-5">
                  - Si vous souhaitez recevoir les futures annonces de ventes aux enchères publiques par mail, merci de nous adresser votre demande par mail à l’adresse : <a href="mailto:contact@viguier-huissier.com">contact@viguier-huissier.com</a>, en indiquant l’objet de votre demande, votre nom, prénom, adresse et numéro de téléphone.<br><br>
 
-                 - Pour pouvoir enchérir, merci de vous munir lors de la vente d'un chèque établi à l’ordre de Me VIGUIER.<br><br>
+                 - Pour pouvoir enchérir, merci de vous munir lors de la vente d'un chèque établi à l’ordre de SELARL VIGUIER.<br><br>
 
                  - Pour les ventes aux enchères publiques <strong>judiciaires</strong>, il faut rajouter au montant d’adjudication, des frais de vente s’élevant à 14,40% TTC.<br><br>
 
