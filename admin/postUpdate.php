@@ -140,6 +140,50 @@ if(isset($_POST['Submit'])){
   }
 // FIN DU FICHIER MATÉRIEL
 
+// FICHIER CONTROLE TECHNIQUE
+  $filePath4 = 'none';
+  if (array_key_exists('liste_controle_technique', $_FILES)) {
+  	$taille4 = filesize($_FILES['liste_controle_technique']['tmp_name']);
+  	$extension4 = strtolower(strrchr($_FILES['liste_controle_technique']['name'], '.'));
+
+  	//Début des vérifications de sécurité...
+  	if(!in_array($extension4, $extensions)) //Si l'extension n'est pas dans le tableau
+  	{
+  		$erreur4 = 'Vous devez uploader un fichier de type png, gif, jpg, jpeg, txt ou doc...n3';
+  	}
+  	if($taille4>$taille_maxi)
+  	{
+  		$erreur4 = 'Le fichier est trop gros... n3';
+  	}
+  	$paGe4 = rand();
+  	if(!isset($erreur4)) //S'il n'y a pas d'erreur, on upload
+  	{
+  		$fichier4 = basename($_FILES['liste_controle_technique']['name']);
+  		$fichier4 = strtr($fichier4,'ÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÝàáâãäåçèéêëìíîïðòóôõöùúûüýÿ','AAAAAACEEEEIIIIOOOOOUUUUYaaaaaaceeeeiiiioooooouuuuyy');
+  		$fichier4 = preg_replace('/([^.a-z0-9]+)/i', '-', $fichier4);
+  		$filePath4 = 'upload/photos_controle_technique/' . $paGe4 . '/' . $fichier4;
+  		$relativeFilePath4 = '../' .$filePath4;
+  		mkdir(dirname($relativeFilePath4), 0777, true);
+
+  		if(move_uploaded_file($_FILES['liste_controle_technique']['tmp_name'], $relativeFilePath4)) //Si la fonction renvoie TRUE, c'est que ça a fonctionné...
+  		{
+  			echo 'Upload effectué avec succès n4!<br>';
+        $req4 = $bdd->prepare('UPDATE ventes_encheres SET link_controle_technique = ? WHERE num_page = ?');
+      	$req4->execute(array($filePath4, $NumberOfLigne));
+  		}
+  		else //Sinon (la fonction renvoie FALSE).
+  		{
+  			echo 'Echec de l\'upload n4 !';
+  		}
+  	}
+  	else
+  	{
+  		echo 'Echec de l\'upload du fichier n4 !';
+  		echo $erreur4;
+  	}
+  }
+// FIN DU CONTROLE TECHNIQUE
+
   $title=$_POST['title'];
 	$time=$_POST['heure'];
 	$date=$_POST['date'];

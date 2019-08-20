@@ -20,7 +20,7 @@ $validityOfReq = $reponse->rowCount() ;
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">SELARL VIGUIER</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid rounded mx-auto mb-2" src="img/VIGUIER LOGO.png" alt="">
+        <img class="img-fluid rounded mx-auto mb-2" src="img/VIGUIER LOGO quadri.png" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,10 +84,20 @@ $validityOfReq = $reponse->rowCount() ;
                       }
                       ?>
 
+                      <?php
+                      if ($donnees['link_controle_technique'] != 'none'){
+                        ?>
+                        <p>Contrôle technique : <a href="<?php echo $donnees['link_controle_technique']; ?>">Cliquez ici</a><br /></p>
+                        <?php
+                      }
+                      else{
+                      }
+                      ?>
+
                     </div>
 
                     <?php
-                    if ($donnees['link_cartesGrises'] != 'none'){
+                    if ($donnees['link_media'] != 'none'){
                       ?>
                       <div class="col-md-12 row" style="width:100; height:100;">
                         <img class="img-fluid img_ventes" src="<?php echo $donnees['link_media']?>" style="width:50%!important; height:50%!important;padding:0!important;margin:0!important;"/>

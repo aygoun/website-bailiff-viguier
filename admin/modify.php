@@ -72,9 +72,16 @@ $reponse->execute(array($_GET['w']));
                 <label class="labelFont">Photos :</label>
                 <!-- On limite le fichier à 4Mo -->
                 <input type="hidden" name="MAX_FILE_SIZE" value="4000000">
-                <input type="file" name="photo_vente"/></td>
+                <input type="file" name="photo_vente"/>
 
-              <td><input type="submit" name="Submit" value="VALIDER"></td>
+                <label class="labelFont">Contrôle technique :</label>
+                <!-- On limite le fichier à 4Mo -->
+                <input type="hidden" name="MAX_FILE_SIZE" value="4000000">
+                <input type="file" name="liste_controle_technique"/>
+              </td>
+              <td>
+                <input type="submit" name="Submit" value="VALIDER">
+              </td>
             </form>
           </tr>
             <?php

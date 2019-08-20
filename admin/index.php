@@ -54,6 +54,10 @@
 				<br><br>
 				<input type="hidden" name="MAX_FILE_SIZE" value="4000000">
 				<span class="strg">Fichier du matériel de la vente < 4Mo:</span><input type="file" name="fichier_materiel">
+				<!-- On limite le fichier à 4Mo -->
+				<br><br>
+				<input type="hidden" name="MAX_FILE_SIZE" value="4000000">
+				<span class="strg">Fichier du contrôle technique < 4Mo:</span><input type="file" name="fichier_controle_technique">
 				<br><br>
 
 				<input type="submit" name="envoyer" value="Envoyer la requête" class="btn btn-danger" />
@@ -69,6 +73,7 @@
 						<th>Lieu</th>
 						<th>Matériel</th>
 						<th>Carte grise</th>
+						<th>Contrôle technique</th>
 						<th>Photo</th>
 						<th>SUPPRIMER/MODIFIER</th>
 					</tr>
@@ -85,7 +90,7 @@
 							<td>
 								<?php if($donnees['link_materiel'] != 'none'){
 									?>
-									<a href="http://viguier-huissier.com<?php echo $donnees['link_materiel'];?>"><?php echo basename($donnees['link_materiel']);?></a>
+									<a href="http://viguier-huissier.com/<?php echo $donnees['link_materiel'];?>"><?php echo basename($donnees['link_materiel']);?></a>
 									<?php
 								}else{
 									echo "Aucun fichier enregistrée";
@@ -94,7 +99,16 @@
 							<td>
 								<?php if($donnees['link_cartesGrises'] != 'none'){
 									?>
-									<a href="http://viguier-huissier.com<?php echo $donnees['link_cartesGrises'];?>"><?php echo basename($donnees['link_cartesGrises']);?></a>
+									<a href="http://viguier-huissier.com/<?php echo $donnees['link_cartesGrises'];?>"><?php echo basename($donnees['link_cartesGrises']);?></a>
+									<?php
+									}else{
+										echo "Aucun fichier enregistrée";
+									}?>
+							</td>
+							<td>
+								<?php if($donnees['link_controle_technique'] != 'none'){
+									?>
+									<a href="http://viguier-huissier.com/<?php echo $donnees['link_controle_technique'];?>"><?php echo basename($donnees['link_controle_technique']);?></a>
 									<?php
 									}else{
 										echo "Aucun fichier enregistrée";
@@ -103,7 +117,7 @@
 							<td>
 								<?php if($donnees['link_media'] != 'none'){
 									?>
-									<a href="http://viguier-huissier.com<?php echo $donnees['link_media'];?>"><?php echo basename($donnees['link_media']);?></a>
+									<a href="http://viguier-huissier.com/<?php echo $donnees['link_media'];?>"><?php echo basename($donnees['link_media']);?></a>
 									<?php
 									}else{
 										echo "Aucun fichier enregistrée";

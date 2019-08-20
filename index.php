@@ -92,10 +92,8 @@
                 - <strong>En espèces</strong> jusqu’à 3000€
                 <br>
                 - <strong>Chèque</strong> à l’ordre de SELARL VIGUIER
-                <br>
-                - <strong>Mandat cash</strong>
-                <br>
-                <a href="download/ordre_de _virement_Viguier_Huissier.pdf" onclick="window.open(this.href); return false;">Télécharger l'ordre de virement</a><br><br>
+                <br><br>
+                <a href="download/ordre_de _virement_Viguier_Huissier.pdf" onclick="window.open(this.href); return false;">Télécharger l'ordre de virement</a><br>
                 <a href="download/RIB_COMPTE_Viguier_Huissier.pdf" onclick="window.open(this.href); return false;">Télécharger le RIB</a>
               </p>
 
